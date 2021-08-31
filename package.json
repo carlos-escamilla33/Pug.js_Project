@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./index.js"
+    "dev": "nodemon ./index.js",
+    "ui": "browser-sync start --config bs-config.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/carlos-escamilla33/whataByte#readme",
   "devDependencies": {
+    "browser-sync": "^2.27.5",
     "nodemon": "^2.0.12"
   },
   "dependencies": {
