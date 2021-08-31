@@ -1,0 +1,12 @@
+extends layout
+
+block layout-content
+  div.View.WifeyView
+    div.Message
+      div.Title
+        h3 We love going on funny adventures
+        h1 This one is when we went to LA
+      pre.Details=JSON.stringify(userProfile, null, 2)
+    div.NavButtons
+      a(href="/basketball")
+        div.NavButton Basketball

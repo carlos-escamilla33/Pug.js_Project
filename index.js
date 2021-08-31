@@ -30,8 +30,16 @@ app.get("/", (req, res) => {
     res.render("index", { title: "Home" });
 })
 
-app.get("/user", (req, res) => {
-    res.render("user", { title: "Profile", userProfile: "Riley Da Pug" })
+app.get("/micayla", (req, res) => {
+    res.render("wife", { title: "Wifey", userProfile: "I couldnt be happier" })
+})
+
+app.get("/basketball", (req, res) => {
+    res.render("basketball", { title: "Basketball"})
+})
+
+app.get("/lambo", (req, res) => {
+    res.render("car", { title: "Hypebeast Shoes"})
 })
 
 /**
